@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8C5A1DD29D9E77E00B9AF2C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C5A1DC29D9E77E00B9AF2C /* InfoView.swift */; };
 		C8E3B44129C68B48002BF640 /* MichaelCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E3B44029C68B48002BF640 /* MichaelCardApp.swift */; };
 		C8E3B44329C68B48002BF640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E3B44229C68B48002BF640 /* ContentView.swift */; };
 		C8E3B44529C68B4B002BF640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E3B44429C68B4B002BF640 /* Assets.xcassets */; };
 		C8E3B44829C68B4B002BF640 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E3B44729C68B4B002BF640 /* Preview Assets.xcassets */; };
+		C8E3B45029C6A915002BF640 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E3B44F29C6A915002BF640 /* Pacifico-Regular.ttf */; };
+		C8E3B45329C7E0F8002BF640 /* Michael.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8E3B45229C7E0F8002BF640 /* Michael.jpeg */; };
+		C8E3B45529C7E352002BF640 /* Michael2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8E3B45429C7E352002BF640 /* Michael2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8C5A1DC29D9E77E00B9AF2C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		C8E3B43D29C68B48002BF640 /* MichaelCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MichaelCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E3B44029C68B48002BF640 /* MichaelCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichaelCardApp.swift; sourceTree = "<group>"; };
 		C8E3B44229C68B48002BF640 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8E3B44429C68B4B002BF640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8E3B44729C68B4B002BF640 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8E3B44F29C6A915002BF640 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		C8E3B45129C6AFA9002BF640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8E3B45229C7E0F8002BF640 /* Michael.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michael.jpeg; sourceTree = "<group>"; };
+		C8E3B45429C7E352002BF640 /* Michael2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michael2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +60,14 @@
 		C8E3B43F29C68B48002BF640 /* MichaelCard */ = {
 			isa = PBXGroup;
 			children = (
+				C8E3B45129C6AFA9002BF640 /* Info.plist */,
+				C8E3B44E29C6A8E7002BF640 /* Fonts */,
 				C8E3B44029C68B48002BF640 /* MichaelCardApp.swift */,
 				C8E3B44229C68B48002BF640 /* ContentView.swift */,
+				C8C5A1DC29D9E77E00B9AF2C /* InfoView.swift */,
 				C8E3B44429C68B4B002BF640 /* Assets.xcassets */,
+				C8E3B45429C7E352002BF640 /* Michael2.jpeg */,
+				C8E3B45229C7E0F8002BF640 /* Michael.jpeg */,
 				C8E3B44629C68B4B002BF640 /* Preview Content */,
 			);
 			path = MichaelCard;
@@ -65,6 +79,14 @@
 				C8E3B44729C68B4B002BF640 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8E3B44E29C6A8E7002BF640 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C8E3B44F29C6A915002BF640 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E3B45029C6A915002BF640 /* Pacifico-Regular.ttf in Resources */,
 				C8E3B44829C68B4B002BF640 /* Preview Assets.xcassets in Resources */,
 				C8E3B44529C68B4B002BF640 /* Assets.xcassets in Resources */,
+				C8E3B45529C7E352002BF640 /* Michael2.jpeg in Resources */,
+				C8E3B45329C7E0F8002BF640 /* Michael.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E3B44329C68B48002BF640 /* ContentView.swift in Sources */,
+				C8C5A1DD29D9E77E00B9AF2C /* InfoView.swift in Sources */,
 				C8E3B44129C68B48002BF640 /* MichaelCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +296,10 @@
 				DEVELOPMENT_TEAM = GG8ZXNPYVQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MichaelCard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +326,10 @@
 				DEVELOPMENT_TEAM = GG8ZXNPYVQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MichaelCard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
